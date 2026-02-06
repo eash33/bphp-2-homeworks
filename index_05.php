@@ -3,13 +3,13 @@ mb_internal_encoding('UTF-8');
 mb_regex_encoding('UTF-8');
 
 echo "Введите Ваше имя: ";
-$name = trim(readline()); // Ждёт пока пользователь введёт имя и нажмёт Enter
+$name = trim(readline());
 
 echo "Введите Вашу фамилию: ";
-$surname = trim(readline()); // Ждёт пока пользователь введёт имя и нажмёт Enter
+$surname = trim(readline());
 
 echo "Введите Ваше отчество: ";
-$patronymic = trim(readline()); // Ждёт пока пользователь введёт имя и нажмёт Enter
+$patronymic = trim(readline());
 
 
 $fullName = $surname . " " . $name . " " . $patronymic;
@@ -29,4 +29,5 @@ if (preg_match('/^(\p{L}+)\s+(\p{L}+)\s+(\p{L}+)$/u', $fullName, $matches)) {
     echo "Аббревиатура: {$fio}" . PHP_EOL;
 } else {
     echo "Не удалось распознать ФИО. Убедитесь, что корректно заполнили поля (Фамилия Имя Отчество)." . PHP_EOL;
+
 };
