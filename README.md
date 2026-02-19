@@ -8,3 +8,6 @@
 
 ### 1.3. Базовые операторы и функции
 ![Задание №2: стандартизатор имени.](https://github.com/eash33/bphp-2-homeworks/blob/main/index_05.php)
+
+### 2.1. Пользовательские функции
+![Задание 2: рефакторинг кода](https://github.com/eash33/bphp-2-homeworks/blob/main/index_06.php)
