@@ -11,3 +11,6 @@
 
 ### 2.1. Пользовательские функции
 ![Задание 2: рефакторинг кода](https://github.com/eash33/bphp-2-homeworks/blob/main/index_06.php)
+
+### 2.2. Основы работы с объектами
+![Задание 2: генератор расписания](https://github.com/eash33/bphp-2-homeworks/blob/main/index_07.php)
